@@ -11,12 +11,8 @@ config_version=5
 [application]
 
 config/name="Platformer Project"
-<<<<<<< Updated upstream
-config/features=PackedStringArray("4.5", "Forward Plus")
-=======
 run/main_scene="uid://b3woif8oc6u60"
 config/features=PackedStringArray("4.4", "Forward Plus")
->>>>>>> Stashed changes
 config/icon="uid://c40s4pm32iqjq"
 
 [dotnet]
@@ -30,8 +26,6 @@ folder_colors={
 "res://scenes/": "yellow",
 "res://scripts/": "purple"
 }
-<<<<<<< Updated upstream
-=======
 
 [input]
 
@@ -56,4 +50,3 @@ jump={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
->>>>>>> Stashed changes
