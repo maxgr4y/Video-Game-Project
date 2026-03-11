@@ -50,6 +50,10 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_hb8ge")
 autoplay = "default"
+<<<<<<< Updated upstream
+=======
+frame_progress = 0.000593418
+>>>>>>> Stashed changes
 
 [node name="Killzone" parent="." instance=ExtResource("2_4l1t8")]
 collision_mask = 6
