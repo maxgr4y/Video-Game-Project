@@ -1,15 +1,8 @@
-<<<<<<< Updated upstream
-[gd_scene load_steps=17 format=3 uid="uid://ctrjkkrmhb46a"]
-
-[ext_resource type="Script" uid="uid://ce5veor3ej2p0" path="res://Assets/scripts/coin.gd" id="1_0t63x"]
-[ext_resource type="Texture2D" uid="uid://cvx5uxp26dhlv" path="res://Assets/sprites/coin.png" id="1_d5gmh"]
-=======
 [gd_scene load_steps=21 format=3 uid="uid://ctrjkkrmhb46a"]
 
 [ext_resource type="Script" uid="uid://ce5veor3ej2p0" path="res://Assets/scripts/coin.gd" id="1_0t63x"]
 [ext_resource type="Texture2D" uid="uid://cvx5uxp26dhlv" path="res://Assets/sprites/coin.png" id="1_d5gmh"]
 [ext_resource type="AudioStream" uid="uid://d2tqsqk30c80" path="res://Assets/sounds/coin.wav" id="3_11l1o"]
->>>>>>> Stashed changes
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0t63x"]
 atlas = ExtResource("1_d5gmh")
@@ -106,8 +99,6 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_relgi"]
 radius = 5.0
 
-<<<<<<< Updated upstream
-=======
 [sub_resource type="Animation" id="Animation_d14el"]
 resource_name = "pickup"
 tracks/0/type = "value"
@@ -206,7 +197,6 @@ _data = {
 &"pickup": SubResource("Animation_d14el")
 }
 
->>>>>>> Stashed changes
 [node name="Coin" type="Area2D"]
 collision_mask = 2
 script = ExtResource("1_0t63x")
@@ -219,8 +209,6 @@ frame_progress = 0.477156
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_relgi")
 
-<<<<<<< Updated upstream
-=======
 [node name="PickUpSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_11l1o")
 
@@ -229,5 +217,4 @@ libraries = {
 &"": SubResource("AnimationLibrary_wnlwo")
 }
 
->>>>>>> Stashed changes
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
